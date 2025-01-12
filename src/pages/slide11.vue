@@ -1,5 +1,5 @@
 <template lang="pug">
 slide
-  .grid.place-content-center.h-full
-    h1 SimpleNix Showcase
+  h1 Linking Labelling and sequence of relations
+    proof3
 </template>

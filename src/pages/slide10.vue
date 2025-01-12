@@ -1,12 +1,6 @@
 <template lang="pug">
 slide
-  h1 Application constraining
-  .grid.gap-10.cols-2
-    application.modal.overflow-auto.flex.items-center
-    constrain_application.modal.flex.items-center
-  h2.mt-5 Type Inference and Constraining
-  ul
-    li type_term creates a type variable for the return type
-    li The function type is then constrained to be a function that takes given argument
-    li During constraining, the return type is shaped
+  h1 Corolarry 2: Suppose the Pursuer has a winning strategy in the generalized Cops and Robbers game G. Assuming optimal play the length of the game is
+
+  proof2
 </template>
