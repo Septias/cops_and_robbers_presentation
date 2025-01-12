@@ -1,0 +1,11 @@
+- Persuer (P): The "cop" which tries to capture the evader
+- Evader (E): The "robber" that tries to escape the persuer
+- Position: $(p_P, q_E)$
+- State: $((pP, qE), X)$ where $X ∈ \{ P, E \}$
+- States where **Persuader is to move**: $\mathcal S_P$
+- Allowed position: $\cal{P}_{\text P}$ (Also for E)
+- Allowed moves: $\mathcal A_{\text P}(p_P, q_E)$
+- Final positions: $\mathcal F$
+- Inital (start) positions: $\mathcal I$
+- State digraph: $\mathcal D_{\mathcal G}$ (bipartite)
+- Token which is moved by players in order

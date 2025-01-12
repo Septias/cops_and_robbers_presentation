@@ -1,0 +1,65 @@
+html,
+body,
+#app
+  height: 100%
+  margin: 0
+  padding: 0
+
+$width: 1200px
+
+.modal
+  @apply border border-blue-500 rounded-xl p-5
+
+.c-grid
+  display: flex
+  @apply justify-stretch items-stretch gap-2
+
+.min-width
+  width: 100%
+
+@media screen and (min-width: $width)
+  .min-width
+    width: $width
+
+  .c-grid
+    @apply justify-center
+
+h1
+  @apply text-5xl mb-5 text-blue-600
+
+h2
+  @apply text-3xl text-blue-600 font-bold mb-3
+
+ul
+  li
+    @apply pb-2 text-2xl
+
+p,li
+  @apply text-2xl
+
+span
+  @apply font-bold
+
+//code
+//  @apply bg-blue-100 rounded p-1 text-blue-6 l
+
+img
+  @apply rounded-xl shadow-xl
+
+// taken from w3schools
+ul
+  list-style: none
+  @apply mx-5 mt-5
+
+ul li::before
+  content: "\2022"
+  @apply color-blue-600
+  font-weight: bold
+  display: inline-block
+  width: 1em
+  // margin-left: -0.2em /* Also needed for space (tweak if needed) */
+
+:root
+  --bg-explanation: #299D61
+  --color-light: #9ACE99
+  --accent: #0a2e1b

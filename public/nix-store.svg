@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="139.23039mm"
+   height="104.08248mm"
+   viewBox="0 0 139.23039 104.08248"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="nix-store.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0368618"
+     inkscape:cx="142.25618"
+     inkscape:cy="257.99002"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.184513,-17.412756)">
+    <circle
+       style="fill:#2563eb;fill-opacity:1;stroke-width:0.695646"
+       id="path1"
+       cx="43.184513"
+       cy="66.946518"
+       r="10" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#4d4d4d;fill-opacity:1;stroke-width:0.637"
+       x="34.239853"
+       y="82.249474"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#4d4d4d;stroke-width:0.637"
+         x="34.239853"
+         y="82.249474">/store</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#2563eb;stroke-width:0.696;stroke-dasharray:none;stroke-opacity:1"
+       id="path1-5"
+       cx="100.42051"
+       cy="27.760756"
+       r="10" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#2563eb;stroke-width:0.695646;stroke-opacity:1"
+       id="path1-2"
+       cx="100.45623"
+       cy="67.028244"
+       r="10" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#2563eb;stroke-width:0.695646;stroke-opacity:1"
+       id="path1-7"
+       cx="100.29237"
+       cy="103.57453"
+       r="10" />
+    <circle
+       style="fill:#2563eb;fill-opacity:1;stroke-width:0.695646"
+       id="path1-6"
+       cx="161.87169"
+       cy="40.628521"
+       r="10" />
+    <circle
+       style="fill:#2563eb;fill-opacity:1;stroke-width:0.695646"
+       id="path1-61"
+       cx="162.4149"
+       cy="88.742073"
+       r="10" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.637;stroke-opacity:1"
+       d="M 59.88459,50.063887 85.93243,34.515843"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.637;stroke-opacity:1"
+       d="M 62.604879,66.407569 87.462338,66.6263"
+       id="path3" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.637;stroke-opacity:1"
+       d="M 61.643839,84.540949 86.003605,99.586861"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;fill:#4d4d4d;fill-opacity:1;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="92.037369"
+       y="43.090683"
+       id="text1-2"><tspan
+         sodipodi:role="line"
+         id="tspan1-0"
+         style="font-size:5.64444px;fill:#4d4d4d;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="92.037369"
+         y="43.090683">Dep A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;fill:#4d4d4d;fill-opacity:1;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="91.158333"
+       y="82.738319"
+       id="text1-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-9"
+         style="font-size:5.64444px;fill:#4d4d4d;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="91.158333"
+         y="82.738319">Dep B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#4d4d4d;fill-opacity:1;stroke-width:0.637"
+       x="92.299385"
+       y="119.37077"
+       id="text1-9"><tspan
+         sodipodi:role="line"
+         id="tspan1-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#4d4d4d;stroke-width:0.637"
+         x="92.299385"
+         y="119.37077">Dep C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;fill:#4d4d4d;fill-opacity:1;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="154.51666"
+       y="58.089817"
+       id="text1-29"><tspan
+         sodipodi:role="line"
+         id="tspan1-3"
+         style="font-size:5.64444px;fill:#4d4d4d;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="154.51666"
+         y="58.089817">Bin 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;fill:#4d4d4d;fill-opacity:1;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="155.77853"
+       y="105.85727"
+       id="text1-7"><tspan
+         sodipodi:role="line"
+         id="tspan1-8"
+         style="font-size:5.64444px;fill:#4d4d4d;stroke-width:0.637;-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="155.77853"
+         y="105.85727">Bin 2</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.637;stroke-opacity:1"
+       d="M 117.04335,101.8077 146.4915,93.175025"
+       id="path5" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.637;stroke-opacity:1"
+       d="M 115.77352,64.823193 145.95207,49.794756"
+       id="path6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.637;stroke-opacity:1"
+       d="m 114.279,29.765894 31.58602,7.524338"
+       id="path7" />
+  </g>
+</svg>

@@ -1,0 +1,2 @@
+- define a nondecreasing sequence of relations from PE to PP,
+- if the game is not over, for every move that the Evader can make from this position, either the game ends or the Pursuer has a response that leads to a win after he has moved j more times.

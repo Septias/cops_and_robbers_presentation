@@ -1,0 +1,3 @@
+1. There are two players named the Pursuer and the Evader.
+2. There is perfect information.
+3. ...
