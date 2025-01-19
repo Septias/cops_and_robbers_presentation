@@ -1,6 +1,17 @@
+<script lang="ts" setup>
+onUpdated(() => {
+  // @ts-expect-error idk
+  MathJax.typeset()
+})
+onMounted(() => {
+  // @ts-expect-error idk
+  MathJax.typeset()
+  console.log('mounted')
+})
+</script>
+
 <template lang="pug">
 slide
-  h1 Corolarry 2: Suppose the Pursuer has a winning strategy in the generalized Cops and Robbers game G. Assuming optimal play the length of the game is
-
+  h1 Corolarry 2: Length of a game
   proof2
 </template>

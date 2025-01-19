@@ -1,4 +1,4 @@
-Let $\mathcal{G}$ be a generalized Cops and Robbers game. Define a non-decreasing sequence of relations from $\mathcal{P}_E$ to $\mathcal{P}_P$, indexed by natural
+Define a non-decreasing sequence of relations from $\mathcal{P}_E$ to $\mathcal{P}_P$, indexed by natural
 numbers, as follows:
 
 1. $q_E \preceq_0 p_P$ if and only if $(p_P, q_E) \in \mathcal{F}$.

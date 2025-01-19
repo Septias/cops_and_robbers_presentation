@@ -1,0 +1,1 @@
+Let $\mathcal{G}$ be a generalized Cops and Robbers game. The label of the vertex $((p_P, q_E), E) \in V(\mathcal{D}_\mathcal{G})$ equals $k$ if and only if $q_E \preceq_{\lceil \frac{k}{2} \rceil} p_P$ and $q_E \not\preceq_{\lceil \frac{k}{2} \rceil - 1} p_P$  when $k \geq 1$.
