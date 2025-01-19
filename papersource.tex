@@ -282,15 +282,11 @@ We note that the labels on the vertices in $\mathcal{S}_P$ are uniquely determin
 In games like Cop and Robbers and many of its variants, each player has the same set of available moves irrespective of the position of the other player (some of these moves may be much better than
 others, however; for example, a bad but allowed move of the robber is to move to a neighbour of a cop).
 
-We define a generalized Cops and Robbers game $\mathcal{G}$ to be \emph{position independent} if for all $p_P \in \mathcal{P}_P$ and $q_E \in \mathcal{P}_E$, whenever $(p_P, q_E) \not\in \mathcal{F}$
-the set $\mathcal{A}_P(p_P, q_E)$ depends only on $p_P$ and the set $\mathcal{A}_E(p_P, q_E)$ depends only on $q_E$.  That is, if the game is not over, from any position of the game, the set of
+We define a generalized Cops and Robbers game $\mathcal{G}$ to be \emph{position independent} if for all $p_P \in \mathcal{P}_P$ and $q_E \in \mathcal{P}_E$, whenever $(p_P, q_E) \not\in \mathcal{F}$ the set $\mathcal{A}_P(p_P, q_E)$ depends only on $p_P$ and the set $\mathcal{A}_E(p_P, q_E)$ depends only on $q_E$.  That is, if the game is not over, from any position of the game, the set of
 available moves for a player does not depend on the position of the other player. A game is called \emph{position dependent} if it is not position independent.   For example, Cops and Robbers is
 position independent, while Seepage is position dependent.
 
-In a position independent game, the set of positions of the game can be taken to be $\mathcal{P}_P \times \mathcal{P}_E$.  Furthermore, because of position independence one can define sets
-$\mathcal{M}_P$ and $\mathcal{M}_E$ of \emph{allowed moves} for the Pursuer and the Evader, respectively;  for example $(p_P, p^ \prime_P) \in \mathcal{M}_P$ if and only if $p^\prime_P \in A_P(p_P,
-q_E)$ (for all $q_E \in \mathcal{P}_E$).  The ordered pairs $G_P = (P_P, M_P)$ and $G_E = (P_E, M_E)$ are the \emph{position digraphs} for the Pursuer and the Evader, respectively. For all $p_P \in
-\mathcal{P}_P$ and $q_E \in \mathcal{P}_E$, we have that $\mathcal{A}_P(p_P, q_E) = N^+_{G_P}(p_P)$ and $\mathcal{A}_E(p_P, q_E) = N^+_{G_E}(r_E)$. Position independent generalized Cops and Robbers
+In a position independent game, the set of positions of the game can be taken to be $\mathcal{P}_P \times \mathcal{P}_E$.  Furthermore, because of position independence one can define sets $\mathcal{M}_P$ and $\mathcal{M}_E$ of \emph{allowed moves} for the Pursuer and the Evader, respectively;  for example $(p_P, p^ \prime_P) \in \mathcal{M}_P$ if and only if $p^\prime_P \in A_P(p_P, q_E)$ (for all $q_E \in \mathcal{P}_E$). The ordered pairs $G_P = (P_P, M_P)$ and $G_E = (P_E, M_E)$ are the \emph{position digraphs} for the Pursuer and the Evader, respectively. For all $p_P \in \mathcal{P}_P$ and $q_E \in \mathcal{P}_E$, we have that $\mathcal{A}_P(p_P, q_E) = N^+_{G_P}(p_P)$ and $\mathcal{A}_E(p_P, q_E) = N^+_{G_E}(r_E)$. Position independent generalized Cops and Robbers
 games are thus, games played on digraphs (in a certain sense).
 
 For digraphs $G$ and $H$, the \emph{categorical product}, written $G \times H$, has vertices $V(G)\times V(H)$ and a directed edge $(a,b)(c,d)$ whenever $(a,c)\in E(G)$ and $(b,d) \in E(H)$. The

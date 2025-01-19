@@ -32,6 +32,8 @@ declare module 'vue' {
     NixLang: typeof import('./components/nix-lang.md')['default']
     Notation: typeof import('./components/notation.md')['default']
     Operators: typeof import('./components/operators.md')['default']
+    PositionIndependentGames: typeof import('./components/position-independent-games.md')['default']
+    PositionIndepententGames: typeof import('./components/position-indepentent-games.md')['default']
     Primitives: typeof import('./components/primitives.md')['default']
     Proof1: typeof import('./components/proof1.md')['default']
     Proof2: typeof import('./components/proof2.md')['default']
