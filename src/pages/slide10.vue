@@ -6,7 +6,6 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
-  console.log('mounted')
 })
 </script>
 
