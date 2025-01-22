@@ -12,11 +12,6 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Technique 2: Game State Relation
-  game-state-relation
+  h1 Application of the algorithm in reflexive graphs
+  proof6
 </template>
-
-<route lang="yaml">
-meta:
-  heading: 'Techique 2: Game State Relation'
-</route>

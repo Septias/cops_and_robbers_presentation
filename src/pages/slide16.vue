@@ -12,11 +12,6 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Technique 2: Game State Relation
-  game-state-relation
+  h1 Vertex elimination
+  proof7
 </template>
-
-<route lang="yaml">
-meta:
-  heading: 'Techique 2: Game State Relation'
-</route>

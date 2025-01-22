@@ -6,17 +6,13 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
+
 })
 </script>
 
 
 <template lang="pug">
 slide
-  h1 Technique 2: Game State Relation
-  game-state-relation
+  h1 Winning strategy in special graphs under the relation
+  proof4
 </template>
-
-<route lang="yaml">
-meta:
-  heading: 'Techique 2: Game State Relation'
-</route>

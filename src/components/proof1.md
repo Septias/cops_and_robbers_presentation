@@ -1,4 +1,2 @@
-The Pursuer has a winning strategy in the generalized Cops and Robbers game $\mathcal{G}$ if and only if there exists $p_P \in \mathcal{I}_P$ such that, for all $q_E \in \mathcal{I}_E(p_P)$, either
-$(p_P, q_E) \in \mathcal{F}$ or there exists $w_P \in \mathcal{A}_P(p_P, q_E)$ such that $q_E \preceq w_P$.
 
-- The definition of $\preceq$ is similar to the labelling procedure described in Section 2, except that the indices in the sequence take into account a move by each player
+The Pursuer has a winning strategy in the generalized Cops and Robbers game $\mathcal{G}$ if and only if there exists $p_P \in \mathcal{I}_P$ such that, for all $q_E \in \mathcal{I}_E(p_P)$, either $(p_P, q_E) \in \mathcal{F}$ or there exists $w_P \in \mathcal{A}_P(p_P, q_E)$ such that $q_E \preceq w_P$.

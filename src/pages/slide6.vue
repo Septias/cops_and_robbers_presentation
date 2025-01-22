@@ -22,5 +22,4 @@ slide
 <route lang="yaml">
   meta:
     heading: "Technique 1: Labeling"
-
 </route>

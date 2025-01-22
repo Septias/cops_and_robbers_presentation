@@ -8,7 +8,7 @@ body,
 $width: 1200px
 
 .modal
-  @apply border border-blue-500 rounded-xl p-5
+  @apply border-2 border-blue-500 rounded-xl p-5
 
 .c-grid
   display: flex
@@ -40,8 +40,6 @@ p,li
 span
   @apply font-bold
 
-//code
-//  @apply bg-blue-100 rounded p-1 text-blue-6 l
 
 img
   @apply rounded-xl shadow-xl
@@ -70,3 +68,17 @@ ul li::before
   --bg-explanation: #299D61
   --color-light: #9ACE99
   --accent: #0a2e1b
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar
+  width: 12px
+
+::-webkit-scrollbar-track
+  background: #f1f1f1
+  border-radius: 10px
+
+::-webkit-scrollbar-thumb
+  @apply bg-blue-600
+  border-radius: 10px
+  border: 3px solid #f1f1f1
+

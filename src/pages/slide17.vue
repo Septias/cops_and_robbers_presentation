@@ -12,11 +12,6 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Technique 2: Game State Relation
-  game-state-relation
+  h1 Thank you for listening
+  p If you have any questions, feel free to ask
 </template>
-
-<route lang="yaml">
-meta:
-  heading: 'Techique 2: Game State Relation'
-</route>

@@ -20,5 +20,4 @@ slide
 <route lang="yaml">
 meta:
   heading: 'Definition: Game length'
-
 </route>

@@ -25,6 +25,8 @@ export const createApp = ViteSSG(
       .forEach(i => i.install?.(ctx))
     // ctx.app.use(Previewer)
     ctx.router.beforeEach((to) => {
+      // @ts-expect-error idk
+      MathJax.typeset()
       if (!to.name?.toString().match(slide_name_matcher)) {
         return 'slide1'
       }

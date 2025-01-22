@@ -12,11 +12,6 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Technique 2: Game State Relation
-  game-state-relation
+  h1 Algorithm for finding the winning strategy in special graphs under the relation
+  proof5
 </template>
-
-<route lang="yaml">
-meta:
-  heading: 'Techique 2: Game State Relation'
-</route>
