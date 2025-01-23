@@ -15,6 +15,5 @@ slide
   .m-2
     h1 Linking Labelling and Sequence of Relations
     theorem3.modal
-
     proof3c
 </template>

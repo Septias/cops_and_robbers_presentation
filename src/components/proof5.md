@@ -1,3 +1,21 @@
-Let $\mathcal G$ be a position independent generalized Cops and Robbers game. Given the graphs $G_P$ and $G_E$, if $N^+_{G_P}(p_P)$ and $N^+\_{G_E}(p_E)$ can be obtained in time $O(f_P(\mathcal P_P))$ and $O(f_E(\mathcal P_E))$, respectively, then there is a $$O(|\mathcal P _P| \cdot |\mathcal P_E|  \cdot f_P(|\mathcal P_P|)  \cdot f_E(|\mathcal P_E|))$$ algorithm to determine if the Pursuer has a winning strategy, and the length of the game assuming optimal play.
-
-
+- We describe an algorithm to determine if the Pursuer has a winning strategy in a position independent game.
+- Define the matrix $\mathcal M_{\mathcal G}$, with rows indexed by elements of $\mathcal P_P$ and columns indexed by elements of $\mathcal P _E$, to record the sequence of relations.
+- If $(p_P, q_E) \in \mathcal F$, then the  $(p_P, q_E)$ entry of $\mathcal M_{\mathcal G}$ is zero. For $i > j$, the $(p_P, q_E)$ entry of $\mathcal M_{\mathcal G}$ equals $i$ if for every $x_E \in N^+\_{G\_E}(q\_E)$, there exists $y_P \in N^+\_{G_P}(p_P)$ such that the $(x_E, y_P)$ entry
+of $\mathcal M_{\mathcal G}$ equals $j$.
+- The matrix $\mathcal{M}_{\mathcal{G}}$ has $|P_P \times P_E|$ entries.
+- For all positive integers $i$, and until no entries in the matrix change, each entry in $\mathcal{M}_{\mathcal{G}}$ not yet assigned a value must be tested to see if it can be set to $i$.
+- It may happen that for each $x_E \in N^+\_{G_E}(q_E)$, there exists $y_P \in N^+\_{G_P}(p_P)$ such that the $(x_E, y_P)$ entry of $\mathcal M_{\mathcal G}$ equals $j < i$.
+- For each $i$ we can update $\mathcal{M}_{\mathcal{G}}$ row-by-row.
+- By Corollary 4 the Pursuer has a winning strategy if and only if every entry of $\mathcal M_{\mathcal G}$ is eventually assigned a value.
+- By definition of the sequence of relations, one can conclude that the Pursuer has a winning strategy as soon as some row of $\mathcal M_{\mathcal G}$ has a value for each entry.  More information can be obtained by filling in the entire matrix.
+- By Corollary 2, the length of the game, assuming optimal play, is $\max_{p_P \in \mathcal P_P} \,\min_{q_E \in \mathcal P_E}\quad \mathcal M_{\mathcal G}(p_P, q_E).$
+- We now consider the complexity of this algorithm. It takes $|\mathcal{F}| \leq |\mathcal{P}_P \times \mathcal{P}_E|$ steps to set the entries corresponding to the final positions to zero.
+- For each $i$, every entry not yet assigned a value must be tested to see if it can be set to $i$.
+- The procedure attempts to fill in $\mathcal M_{\mathcal G}$ row-by-row.
+- For each row $p_P$, suppose it takes $f_P(|\mathcal{P_P}|)$ time to obtain $N^+\_{G_P}(p_P)$.
+- Possibly all $|\mathcal{P}_E|$ entries in the row must be tested.
+- To test whether the entry in column $q_E$ can be assigned a value requires obtaining the list of all possible the Evader moves from $q_E$.
+- Suppose this takes time $f_E(|\mathcal{P}_E|)$.
+- Then processing row $p_P$ takes  time at most $O(f_P(|\mathcal{P}_P|) \cdot |\mathcal{P}_E|  \cdot f_E(|\mathcal{P}_E|)). $
+- There are $|\mathcal{P}_P|$ rows and possibly as many as $|\mathcal{P}_P \times \mathcal{P}_E|$ values for $i$.
+- Hence, given the graphs $G_P$ and $G_E$, the algorithm takes time at most $O(|\mathcal{P}_P| \cdot  |\mathcal{P}_E| \cdot f_P(|\mathcal{P}_P|) \cdot f_E(|\mathcal{P}_E|)),$ as desired.

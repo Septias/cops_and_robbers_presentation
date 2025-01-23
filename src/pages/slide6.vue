@@ -22,5 +22,5 @@ slide
 
 <route lang="yaml">
 meta:
-  heading: 'Techique 2: Game State Relation'
+  heading: 'Technique 2: Game State Relation'
 </route>

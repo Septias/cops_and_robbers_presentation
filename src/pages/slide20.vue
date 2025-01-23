@@ -9,11 +9,8 @@ onMounted(() => {
 })
 </script>
 
-
 <template lang="pug">
 slide
-  h1 Application of the algorithm in reflexive graphs
-  proof6
+  h1 Thank you for listening
+  p If you have any questions, feel free to ask :)
 </template>
-
-

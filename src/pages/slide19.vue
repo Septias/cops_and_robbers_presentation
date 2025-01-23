@@ -9,10 +9,8 @@ onMounted(() => {
 })
 </script>
 
-
 <template lang="pug">
 slide
-  h1 Algorithm for finding the winning strategy in special graphs under the relation
-  theorem5.modal
-  proof5
+  h1 Application of the algorithm in reflexive graphs
+  proof6
 </template>
