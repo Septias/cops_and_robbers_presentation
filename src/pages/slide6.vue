@@ -16,7 +16,7 @@ slide
   game-state-relation
 
   ul
-    li The definition of $\preceq$ is similar to the labelling procedure described in Section 2, except that the indices in the sequence take into account a move
+    li The definition of $\preceq$ is similar to the labelling procedure, except that the indices in the sequence take into account a move
       i  by each player.
 </template>
 

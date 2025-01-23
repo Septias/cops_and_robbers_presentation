@@ -28,7 +28,7 @@ slide
       | It is straightforward to prove by induction that the final labels are the
       em  number of moves that the game will last
       |  from a given position, assuming both sides
-      em  play optimally
+      em  play optimally (Theorem 3)
       |.
 
 </template>
