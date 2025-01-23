@@ -24,6 +24,13 @@ $width: 1200px
   .c-grid
     @apply justify-center
 
+table
+  @apply text-xl
+  th
+    @apply text-blue-600
+
+  td
+    @apply border-1 p-2
 h1
   @apply text-5xl mb-5 text-blue-600
 
@@ -54,7 +61,7 @@ ol li
 // taken from w3schools
 ul
   list-style: none
-  @apply mx-5 mt-5
+  @apply ml-6 mt-5
 
 ul li::before
   content: "\2022"
@@ -62,7 +69,7 @@ ul li::before
   font-weight: bold
   display: inline-block
   width: 1em
-  // margin-left: -0.2em /* Also needed for space (tweak if needed) */
+  margin-left: -1em
 
 :root
   --bg-explanation: #299D61

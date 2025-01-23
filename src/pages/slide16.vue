@@ -6,12 +6,13 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
+
 })
 </script>
 
 
 <template lang="pug">
 slide
-  h1 Vertex elimination
-  proof7
+  h1 Position Independent Games
+  position-independent-games
 </template>

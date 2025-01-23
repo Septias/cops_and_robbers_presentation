@@ -1,0 +1,4 @@
+- **Backwards direction**: Induction
+- Suppose there exists $p_P \in \mathcal{I}_P$ such that, for all $q_E \in \mathcal{I}_E(p_P)$, either $(p_P, q_E) \in \mathcal{F}$ or there exists $w_P \in \mathcal{A}_P(p_P, q_E)$ such that $q_E \preceq w_P$.
+- After the start state has been determined it is the Pursuer's move. The condition guarantees that if the game is not over, then it is always possible for the Pursuer to move to a state from which he has a winning strategy.
+- This concludes the proof.

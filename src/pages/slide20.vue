@@ -12,9 +12,8 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Theorem 1: Winning strategy under the Game State Relation
-  .modal
-    theorem1
-
-  proof1
+  h1 Application of the algorithm in reflexive graphs
+  proof6
 </template>
+
+

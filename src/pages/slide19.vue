@@ -12,9 +12,7 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Theorem 1: Winning strategy under the Game State Relation
-  .modal
-    theorem1
-
-  proof1
+  h1 Algorithm for finding the winning strategy in special graphs under the relation
+  theorem5.modal
+  proof5
 </template>

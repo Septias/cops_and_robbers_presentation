@@ -1,3 +1,4 @@
+
 <script lang="ts" setup>
 onUpdated(() => {
   // @ts-expect-error idk
@@ -9,9 +10,11 @@ onMounted(() => {
 })
 </script>
 
-
 <template lang="pug">
 slide
-  h1 Algorithm for finding the winning strategy in special graphs under the relation
-  proof5
+  .m-2
+    h1 Linking Labelling and Sequence of Relations
+    theorem3.modal
+
+    proof3c
 </template>

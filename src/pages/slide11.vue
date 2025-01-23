@@ -11,6 +11,8 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Linking labeling and sequence of relations
-  proof3
+  h1 Corollary 2: Length of a Game
+  theorem2.modal
+
+  proof2
 </template>

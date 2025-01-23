@@ -6,15 +6,13 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
+
 })
 </script>
 
 
 <template lang="pug">
 slide
-  h1 Theorem 1: Winning strategy under the Game State Relation
-  .modal
-    theorem1
-
-  proof1
+  h1 Winning strategy in special graphs under the relation
+  theorem4
 </template>

@@ -12,9 +12,6 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  h1 Theorem 1: Winning strategy under the Game State Relation
-  .modal
-    theorem1
-
-  proof1
+  h1 Thank you for listening
+  p If you have any questions, feel free to ask
 </template>

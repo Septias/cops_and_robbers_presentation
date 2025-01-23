@@ -6,11 +6,18 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
+
 })
 </script>
 
+
 <template lang="pug">
 slide
-  h1 Corolarry 2: Length of a game
-  proof2
+  h1 Definition: Game Length
+  game-length
 </template>
+
+<route lang="yaml">
+meta:
+  heading: 'Definition: Game length'
+</route>

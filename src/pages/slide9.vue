@@ -6,18 +6,15 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
-
 })
 </script>
 
 
 <template lang="pug">
 slide
-  h1 Definition: Game length
-  game-length
-</template>
+  h1 Theorem 1: Winning strategy under the Game State Relation
+  .modal
+    theorem1
 
-<route lang="yaml">
-meta:
-  heading: 'Definition: Game length'
-</route>
+  proof1c
+</template>

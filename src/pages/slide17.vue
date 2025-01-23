@@ -6,12 +6,14 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
+
 })
 </script>
 
 
 <template lang="pug">
 slide
-  h1 Thank you for listening
-  p If you have any questions, feel free to ask
+  h1 Winning strategy in special graphs under the relation
+  theorem4.modal
+  proof4
 </template>

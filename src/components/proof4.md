@@ -1,2 +1,5 @@
-Let 𝓖 be a position independent generalized Cops and Robbers game. If $G_P$ is strongly connected and there exists $X \subseteq P_P$ such that $\mathcal{I} = X \times P_E$, then the
-Pursuer has a winning strategy in $\mathcal{G}$ if and only if $\preceq\ =\  V(\mathcal{R}_{\mathcal{G}}) =P_P\times P_E$.
+-  The proof of the reverse direction is analogous to the proof of the forward direction in Theorem 1, and so is omitted.
+- For the forward direction, suppose the Pursuer has a winning strategy.
+- Then there exists an allowed starting position, say $p_P$, for the Pursuer such that for all $q_E \in P_E$, either $(p_P, q_E) \in \mathcal{F}$ or there exists $w_P \in N^+_{G_P}(p_P)$ and a natural number $j$ such that $q_E \preceq_j w_P$.
+- Therefore, there is a natural number $i$ such that $q_E \preceq_i p_P$ for all $q_E \in P_E$.  It now follows by induction that all $q_E \preceq_{i+k} x$ for all $q_E \in P_E$ for all $x$ joined to $p_P$ by a directed path of length $k$.
+- The result now follows as $G_P$ is strongly connected.
