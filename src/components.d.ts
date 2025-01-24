@@ -48,6 +48,7 @@ declare module 'vue' {
     Proof3c: typeof import('./components/proof3c.md')['default']
     Proof4: typeof import('./components/proof4.md')['default']
     Proof5: typeof import('./components/proof5.md')['default']
+    Proof5b: typeof import('./components/proof5b.md')['default']
     Proof6: typeof import('./components/proof6.md')['default']
     Proof7: typeof import('./components/proof7.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
