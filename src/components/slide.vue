@@ -43,7 +43,7 @@ onUnmounted(() => {
 <template lang="pug">
 div.w-screen.h-screen.c-grid
   .min-width.flex.flex-col.justify-between.p-5.pt-25.max-h-screen
-    div.flex-grow.overflow-auto
+    div.flex-grow.overflow-auto.overflow-x-hidden
       slot
     .flex.justify-between.px-5.mt-10
       span Sebastian Klähn

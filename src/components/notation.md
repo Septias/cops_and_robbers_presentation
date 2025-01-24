@@ -1,2 +1,2 @@
-- Persuer (**P**): The "cop" which tries to capture the evader
-- Evader (**E**): The "robber" that tries to escape the persuer
+- Pursuer (**P**): The "cop" which tries to capture the evader
+- Evader (**E**): The "robber" that tries to escape the pursuer

@@ -12,14 +12,9 @@ onMounted(() => {
 
 <template lang="pug">
 slide
-  .p-2
+  .px-4
     h1 Algorithm for finding the winning strategy in special graphs under the relation
     theorem5.modal
-    proof5
+    proof5b
 </template>
 
-
-<route lang="yaml">
-meta:
-  heading: 'Algorithm for finding a winning strategy'
-</route>

@@ -9,14 +9,4 @@ of $\mathcal M_{\mathcal G}$ equals $j$.
 - By Corollary 4 the Pursuer has a winning strategy if and only if every entry of $\mathcal M_{\mathcal G}$ is eventually assigned a value.
 - By definition of the sequence of relations, one can conclude that the Pursuer has a winning strategy as soon as some row of $\mathcal M_{\mathcal G}$ has a value for each entry.  More information can be obtained by filling in the entire matrix.
 - By Corollary 2, the length of the game, assuming optimal play, is $\max_{p_P \in \mathcal P_P} \,\min_{q_E \in \mathcal P_E}\quad \mathcal M_{\mathcal G}(p_P, q_E).$
-- We now consider the complexity of this algorithm. It takes $|\mathcal{F}| \leq |\mathcal{P}_P \times \mathcal{P}_E|$ steps to set the entries corresponding to the final positions to zero.
-- For each $i$, every entry not yet assigned a value must be tested to see if it can be set to $i$.
-- The procedure attempts to fill in $\mathcal M_{\mathcal G}$ row-by-row.
-- For each row $p_P$, suppose it takes $f_P(|\mathcal{P_P}|)$ time to obtain $N^+\_{G_P}(p_P)$.
-- Possibly all $|\mathcal{P}_E|$ entries in the row must be tested.
-- To test whether the entry in column $q_E$ can be assigned a value requires obtaining the list of all possible Evader moves from $q_E$.
-- Suppose this takes time $f_E(|\mathcal{P}_E|)$.
-- Then processing row $p_P$ takes  time at most $O(f_P(|\mathcal{P}_P|) \cdot |\mathcal{P}_E|  \cdot f_E(|\mathcal{P}_E|)). $
-- There are $|\mathcal{P}_P|$ rows and possibly as many as $|\mathcal{P}_P \times \mathcal{P}_E|$ values for $i$.
-- Hence, given the graphs $G_P$ and $G_E$, the algorithm takes time at most $O(|\mathcal{P}_P| \cdot  |\mathcal{P}_E| \cdot f_P(|\mathcal{P}_P|) \cdot f_E(|\mathcal{P}_E|)),$ as desired.
-- With dynamic-programming or iterative-fill arguments we don't have to check for every i so that works out
+

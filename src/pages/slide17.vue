@@ -6,19 +6,20 @@ onUpdated(() => {
 onMounted(() => {
   // @ts-expect-error idk
   MathJax.typeset()
-
 })
 </script>
 
 
 <template lang="pug">
 slide
-  h1 Winning strategy in special graphs under the relation
-  theorem4.modal
-  proof4
+  .px-4
+    h1 Algorithm for finding the winning strategy in special graphs under the relation
+    theorem5.modal
+    proof5
 </template>
+
 
 <route lang="yaml">
 meta:
-  skip: true
+  heading: 'Algorithm for finding a winning strategy'
 </route>
