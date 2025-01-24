@@ -1,3 +1,4 @@
 - Fill in proof 6
 - Add BFS note to proof 5
 - Add round summary digraph
+- Add S_P and S_E to `rules.md`

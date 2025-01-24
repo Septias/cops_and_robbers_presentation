@@ -17,3 +17,8 @@ slide
   theorem4.modal
   proof4
 </template>
+
+<route lang="yaml">
+meta:
+  skip: true
+</route>

@@ -12,12 +12,18 @@ function listener(e: any) {
   if (e.key === 'ArrowLeft') {
     next = id - 1
     router.push(`/slide${id - 1}`)
+    if (router.getRoutes().find((r) => r.name === `slide${id - 1}`)?.meta?.skip) {
+      next = id - 2
+    }
   }
   else if (e.key === 'ArrowRight') {
     next = id + 1
   }
   else {
     return
+  }
+  if (router.getRoutes().find((r) => r.name === `slide${next}`)?.meta?.skip) {
+    next = id + 1
   }
   if (next > max) {
     next = 1
